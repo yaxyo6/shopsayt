@@ -1,0 +1,16 @@
+.sitebar{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+a{
+    color: white;
+    font-size: 30px;
+}

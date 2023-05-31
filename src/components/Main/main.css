@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  button {
+    cursor: pointer;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #root {
+    max-width:1440px;
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+  }
+
+  .main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+  }
+
+  .left{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(6, 206, 49);
+  }
+  .right{
+    width: 80%;
+    height: 100vh;
+    background-color: blue;
+  }
